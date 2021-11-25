@@ -68,4 +68,20 @@
 
   --d_button1: 500 1.125rem / 1.6875rem var(--baseFont1);
   --d_button2: var(--d_button2);
+
+  /* colores */
+
+  --white: #fff;
+  --black: #000;
+
+  --color1: #2D9CDB;
+  --color2: #EB5757;
+  --color3: #27AE60;
+
+  --gray1: #333333;
+  --gray2: #4F4F4F;
+  --gray3: #828282;
+  --gray4: #BDBDBD;
+  --gray5: #E0E0E0;
+  --gray6: #F2F2F2;
 }
