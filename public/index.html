@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inka homepage</title>
+
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <link rel="stylesheet" href="../src/styles/home.css">
+    <link rel="stylesheet" href="../src/styles/form.css">
+
 </head>
 
 <body>
@@ -15,12 +20,13 @@
         <h1 class="home__title">We create beautiful and fast web services</h1>
         <figure class="home__img">
             <img
-            src=""
-            srcset=""
-            height=""
-            width=""
-            alt=""
-            aria-label=""
+            src="../src/assets/images/hero.webp"
+            srcset="../src/assets/images/hero.webp 360w,
+            ../src/assets/images/hero-large.webp 720w"
+            height="145"
+            width="348"
+            alt="Imagen de bienvenida"
+            aria-label="Imagen de bienvenida"
             />
         </figure>
         <h1 class="home__title">Story, emotion and purpose</h1>
@@ -28,8 +34,10 @@
 
         <div class="form">
             <p class="form__text">Want us to contact you?</p>
-            <input class="form__input" type="email" id='mail' name='contactmail' placeholder="Email">
-            <button class='form__button' type='submit'>Join</button>
+            <form class="form__cont">
+                <input class="form__input" type="email" id='mail' name='contactmail' placeholder="Email" required>
+                <button class='form__button' type='submit'>Join</button>
+            </form>
         </div>
     </section>
 </body>
