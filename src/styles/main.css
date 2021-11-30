@@ -35,37 +35,53 @@
 
   /* mobile */
 
-  --m_header1: 800 1.5rem / 2.2031rem var(--baseFont2);
-  --m_header2: 500 1.125rem / 1.6875rem var(--baseFont1);
-  --m_header3: 500 1.5rem / 2.25rem var(--baseFont1);
-  --m_header4: 500 1.5rem / 2.25rem var(--baseFont1);
-  --m_header5: 700 1.5rem / 2.25rem var(--baseFont1); /**/
+  --m_header1: 800 24px / 35.2496px var(--baseFont2);
+  --m_header2: 500 18px / 27px var(--baseFont1);
+  --m_header3: 500 24px / 36px var(--baseFont1);
+  --m_header4: 500 24px / 36px var(--baseFont1);
+  --m_header5: 700 24px / 36px var(--baseFont1); /**/
 
-  --m_link: 500 0.75rem / 1.125rem var(--baseFont1);
-  --m_link: 400 1.125rem / 2.25rem var(--baseFont1); /**/
+  --m_link1: 500 12px / 18px var(--baseFont1);
+  --m_link2: 400 18px / 36px var(--baseFont1); /**/
 
-  --m_text1: 400 0.75rem / 1.125rem var(--baseFont1);
-  --m_text2: 400 1rem / 1.5rem var(--baseFont1); /**/
-  --m_text3: 500 0.625rem / 0.9375rem var(--baseFont1);
+  --m_text1: 400 12px / 18px var(--baseFont1);
+  --m_text2: 400 16px / 24px var(--baseFont1); /**/
+  --m_text3: 500 10px / 15px var(--baseFont1);
 
-  --m_button1: 500 0.875rem / 1.3125rem var(--baseFont1);
-  --m_button2: 500 1rem / 1.5rem var(--baseFont1); /**/
+  --m_button1: 500 14px / 21px var(--baseFont1);
+  --m_button2: 500 16px / 24px var(--baseFont1); /**/
 
   /* desktop */
 
-  --d_header1: 800 2.25rem / 3.305rem var(--baseFont2);
-  --d_header2: 500 1.5rem / 2.25rem var(--baseFont1);
-  --d_header3: 500 3rem / 4.5rem var(--baseFont1);
-  --d_header4: 500 2.25rem / 3.375rem var(--baseFont1);
+  --d_header1: 800 36px / 52.88px var(--baseFont2);
+  --d_header2: 500 24px / 36px var(--baseFont1);
+  --d_header3: 500 48px / 72px var(--baseFont1);
+  --d_header4: 500 36px / 54px var(--baseFont1);
   --d_header5: var(--m_header5);
 
-  --d_link1: 500 1.125rem / 1.6875rem var(--baseFont1);
+  --d_link1: 500 18px / 27px var(--baseFont1);
   --d_link2: var(--d_header5);
 
-  --d_text1: 400 1.125rem / 1.6875rem var(--baseFont1);
+  --d_text1: 400 18px / 27px var(--baseFont1);
   --d_text2: var(--d_text2);
-  --d_text3: 500 0.875rem / 1.3125rem var(--baseFont1);
+  --d_text3: 500 14px / 21px var(--baseFont1);
 
-  --d_button1: 500 1.125rem / 1.6875rem var(--baseFont1);
+  --d_button1: 500 18px / 27px var(--baseFont1);
   --d_button2: var(--d_button2);
+
+  /* colores */
+
+  --white: #fff;
+  --black: #000;
+
+  --blue: #2D9CDB;
+  --red: #EB5757;
+  --green: #27AE60;
+
+  --gray1: #333333;
+  --gray2: #4F4F4F;
+  --gray3: #828282;
+  --gray4: #BDBDBD;
+  --gray5: #E0E0E0;
+  --gray6: #F2F2F2;
 }
