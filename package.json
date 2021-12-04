@@ -1,10 +1,13 @@
 {
-  "name": "InkaHomePage",
+  "name": "inka-home-page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production --config webpack.config.js",
+    "dev": "webpack --config webpack.config.dev.js",
+    "start": "webpack serve --config webpack.config.dev.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +19,20 @@
   "bugs": {
     "url": "https://github.com/Inkacoders/Inka-homepage/issues"
   },
-  "homepage": "https://github.com/Inkacoders/Inka-homepage#readme"
+  "homepage": "https://github.com/Inkacoders/Inka-homepage#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.0.0",
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "terser-webpack-plugin": "^5.2.5",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
 }
