@@ -7,7 +7,31 @@
     <title>Inka homepage</title>
   </head>
 
-  <body>
+  <body class="body">
+    <header class="header">
+      <figure class="header-logo">
+        <img
+          src="./assets/images/inka.webp"
+          srcset="./assets/images/inka.webp 1x, ./assets/images/inka-2x.webp 2x"
+          height="24"
+          width="55.44"
+          alt="Logo de Inka"
+          aria-label="Logo de Inka"
+        />
+      </figure>
+      <nav class="menu-container" aria-label="Main menu" role="navigation">
+        <ul class="menu">
+          <li><a class="menu-item" href="#">Home</a></li>
+          <li><a class="menu-item" href="#">Service</a></li>
+          <li><a class="menu-item" href="#">Our Works</a></li>
+          <li><a class="menu-item" href="#">Clients</a></li>
+          <li><a class="menu-item" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="burgerMenu">
+        <div class="burgerMenu-line"></div>
+      </button>
+    </header>
     <section id="home" class="home" aria-label="home">
       <a class="home__link" href="#">Unhappy with your website?</a>
       <h1 class="home__title">We create beautiful and fast web services</h1>
