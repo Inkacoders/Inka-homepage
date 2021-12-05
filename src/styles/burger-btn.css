@@ -5,6 +5,7 @@
   padding-inline-start: 0;
   background: none;
   border: none;
+  cursor: pointer;
 }
 
 .burger-btn__line,
