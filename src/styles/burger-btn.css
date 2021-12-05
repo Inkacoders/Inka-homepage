@@ -1,0 +1,72 @@
+.burger-btn {
+  block-size: 1.25rem;
+  inline-size: 1.5rem;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+  background: none;
+  border: none;
+  z-index: 3;
+}
+
+.burger-btn__line,
+.burger-btn::after,
+.burger-btn::before {
+  background: var(--black);
+  block-size: 3px;
+  inline-size: 1.5rem;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.burger-btn::before {
+  content: "";
+  display: block;
+  transform: translateY(10px);
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+}
+
+.burger-btn::after {
+  content: "";
+  display: block;
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+}
+
+.burger-btn--pressed .burger-btn__line {
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  opacity: 0;
+}
+
+.burger-btn--pressed::after {
+  transform: rotate(45deg) translate(-2px, -2px);
+  -webkit-transform: rotate(45deg) translate(-2px, -2px);
+  -moz-transform: rotate(45deg) translate(-2px, -2px);
+  -ms-transform: rotate(45deg) translate(-2px, -2px);
+  -o-transform: rotate(45deg) translate(-2px, -2px);
+}
+
+.burger-btn--pressed::before {
+  transform: rotate(-45deg) translate(-2px, 2px);
+  -webkit-transform: rotate(-45deg) translate(-2px, 2px);
+  -moz-transform: rotate(-45deg) translate(-2px, 2px);
+  -ms-transform: rotate(-45deg) translate(-2px, 2px);
+  -o-transform: rotate(-45deg) translate(-2px, 2px);
+}
