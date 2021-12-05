@@ -85,3 +85,8 @@
   --gray5: #e0e0e0;
   --gray6: #f2f2f2;
 }
+
+.body {
+  margin: 0;
+  min-inline-size: 22.5rem;
+}
