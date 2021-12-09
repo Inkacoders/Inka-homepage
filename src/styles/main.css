@@ -57,17 +57,17 @@
   --d_header2: 500 24px / 36px var(--baseFont1);
   --d_header3: 500 48px / 72px var(--baseFont1);
   --d_header4: 500 36px / 54px var(--baseFont1);
-  --d_header5: var(--m_header5);
+  --d_header5: 700 24px / 36px var(--baseFont1);
 
   --d_link1: 500 18px / 27px var(--baseFont1);
-  --d_link2: var(--d_header5);
+  --d_link2: 700 24px / 36px var(--baseFont1);
 
   --d_text1: 400 18px / 27px var(--baseFont1);
-  --d_text2: var(--d_text2);
+  --d_text2: 400 16px / 24px var(--baseFont1);
   --d_text3: 500 14px / 21px var(--baseFont1);
 
   --d_button1: 500 18px / 27px var(--baseFont1);
-  --d_button2: var(--d_button2);
+  --d_button2: 500 16px / 24px var(--baseFont1);
 
   /* colores */
 
@@ -85,8 +85,59 @@
   --gray5: #e0e0e0;
   --gray6: #f2f2f2;
 }
+html{
+  box-sizing: border-box;
+}
 
 .body {
   margin: 0;
-  min-inline-size: 22.5rem;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.main__wrapper{
+  box-sizing: border-box;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  max-inline-size: 370px;
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
+  padding-block-start:3.125rem;
+
+}
+
+@media (min-width: 768px){
+  .main__wrapper{
+    max-inline-size: 760px;
+    padding-inline-end: 25px;
+    padding-inline-start: 25px;
+  }
+}
+
+@media (min-width: 1000px){
+  .main__wrapper{
+    max-inline-size: 1440px;
+    padding-inline-end: 35px;
+    padding-inline-start: 35px;
+  }
+  :root {
+    /* desktop */
+  
+    --m_header1: 800 36px / 52.88px var(--baseFont2);
+    --m_header2: 500 24px / 36px var(--baseFont1);
+    --m_header3: 500 48px / 72px var(--baseFont1);
+    --m_header4: 500 36px / 54px var(--baseFont1);
+    --m_header5: 700 24px / 36px var(--baseFont1);
+  
+    --m_link1: 500 18px / 27px var(--baseFont1);
+    --m_link2: 700 24px / 36px var(--baseFont1);
+  
+    --m_text1: 400 18px / 27px var(--baseFont1);
+    --m_text2: 400 16px / 24px var(--baseFont1);
+    --m_text3: 500 14px / 21px var(--baseFont1);
+  
+    --m_button1: 500 18px / 27px var(--baseFont1);
+    --m_button2: 500 16px / 24px var(--baseFont1);
+
+  }
 }
