@@ -5,6 +5,7 @@ import "../styles/header.css";
 import "../styles/burger-btn.css";
 import "../styles/menu.css";
 import "../styles/grid-gallery.css";
+import "../styles/community.css";
 
 import { $burgerBtn } from "./selectors.js";
 import { menuHandle } from "./functions.js";

@@ -1,0 +1,37 @@
+.community {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.25rem;
+}
+
+.community__title {
+  font: var(--d_link1);
+  color: var(--red);
+  margin: 0;
+  margin-block-end: 0.4375rem;
+}
+
+.community__text-content {
+  display: flex;
+  flex-direction: column;
+  inline-size: 17.5rem;
+  margin: 0;
+}
+
+.community__description {
+  font: var(--d_header4);
+  color: var(--gray1);
+}
+
+.community__details {
+  font: var(--m_text2);
+  color: var(--gray2);
+}
+
+@media screen and (min-width: 650px) {
+  .community {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
