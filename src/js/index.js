@@ -1,4 +1,5 @@
 import "../styles/main.css";
+import "../styles/wrapper.css";
 import "../styles/home.css";
 import "../styles/form.css";
 import "../styles/header.css";

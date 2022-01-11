@@ -91,28 +91,7 @@
   min-inline-size: 22.5rem;
 }
 
-.main__wrapper {
-  box-sizing: border-box;
-  margin-inline-end: auto;
-  margin-inline-start: auto;
-  max-inline-size: 90rem;
-  padding-inline-end: 1rem;
-  padding-inline-start: 1rem;
-  padding-block-start: 3.125rem;
-}
-
-@media (min-width: 768px) {
-  .main__wrapper {
-    padding-inline-end: 1.5625rem;
-    padding-inline-start: 1.5625rem;
-  }
-}
-
 @media (min-width: 1000px) {
-  .main__wrapper {
-    padding-inline-end: 2.1875rem;
-    padding-inline-start: 2.1875rem;
-  }
   :root {
     /* desktop */
 
