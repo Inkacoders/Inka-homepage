@@ -6,6 +6,8 @@
   background: none;
   border: none;
   cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .burger-btn__line,
@@ -69,4 +71,10 @@
   -moz-transform: rotate(-45deg) translate(-0.125rem, 0.125rem);
   -ms-transform: rotate(-45deg) translate(-0.125rem, 0.125rem);
   -o-transform: rotate(-45deg) translate(-0.125rem, 0.125rem);
+}
+
+@media screen and (min-width: 1000px) {
+  .burger-btn {
+    display: none;
+  }
 }

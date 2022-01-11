@@ -1,4 +1,4 @@
-import { $burgerBtn, $menuContainer } from "./selectors.js";
+import { $burgerBtn, $menuContainer, $body } from "./selectors.js";
 
 function menuHandle() {
   const isOpen = $burgerBtn.classList.toggle("burger-btn--pressed");
