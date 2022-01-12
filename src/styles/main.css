@@ -91,30 +91,7 @@
   min-inline-size: 22.5rem;
 }
 
-.main__wrapper {
-  box-sizing: border-box;
-  margin-inline-end: auto;
-  margin-inline-start: auto;
-  max-inline-size: 370px;
-  padding-inline-end: 1rem;
-  padding-inline-start: 1rem;
-  padding-block-start: 3.125rem;
-}
-
-@media (min-width: 768px) {
-  .main__wrapper {
-    max-inline-size: 760px;
-    padding-inline-end: 25px;
-    padding-inline-start: 25px;
-  }
-}
-
 @media (min-width: 1000px) {
-  .main__wrapper {
-    max-inline-size: 1440px;
-    padding-inline-end: 35px;
-    padding-inline-start: 35px;
-  }
   :root {
     /* desktop */
 
