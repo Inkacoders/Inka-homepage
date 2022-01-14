@@ -10,6 +10,7 @@ import "../styles/grid-gallery.css";
 import "../styles/community.css";
 import "../styles/services.css";
 import "../styles/card.css";
+import "../styles/testimonial.css";
 
 import { $burgerBtn } from "./selectors.js";
 import { menuHandle } from "./functions.js";
