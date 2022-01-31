@@ -2,185 +2,245 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Inka homepage</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inka homepage</title>
 </head>
 
 <body class="body">
-  <header class="header">
-    <div class="header__wrapper">
-      <figure class="header__logo">
-        <a href="./index.html" aria-current="page">
-          <img src="./assets/images/inka.webp" srcset="
+    <header class="header">
+        <div class="header__wrapper">
+            <figure class="header__logo">
+                <a href="./index.html" aria-current="page">
+                    <img src="./assets/images/inka.webp" srcset="
                 ./assets/images/inka.webp    1x,
                 ./assets/images/inka-2x.webp 2x
               " height="24" width="55.44" alt="Logo de Inka" aria-label="Logo de Inka" />
-        </a>
-      </figure>
-      <nav class="menu__container" aria-label="Main menu" role="navigation" aria-expanded="false">
-        <ul class="menu">
-          <li><a class="menu__item" href="#">Home</a></li>
-          <li><a class="menu__item" href="#">Service</a></li>
-          <li><a class="menu__item" href="#">Our Works</a></li>
-          <li><a class="menu__item" href="#">Clients</a></li>
-          <li><a class="menu__item" href="#">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="burger-btn" aria-pressed="false">
-        <div class="burger-btn__line"></div>
-      </button>
-    </div>
-  </header>
-
-  <main class="main">
-    <div class="wrapper">
-      <section id="home" class="home" aria-label="home">
-        <div class="home__wrapper">
-          <a class="home__link" href="#">Unhappy with your website?</a>
-          <h1 class="home__title">
-            We create beautiful and fast web services
-          </h1>
+                </a>
+            </figure>
+            <nav class="menu__container" aria-label="Main menu" role="navigation" aria-expanded="false">
+                <ul class="menu">
+                    <li><a class="menu__item" href="#">Home</a></li>
+                    <li><a class="menu__item" href="#">Service</a></li>
+                    <li><a class="menu__item" href="#">Our Works</a></li>
+                    <li><a class="menu__item" href="#">Clients</a></li>
+                    <li><a class="menu__item" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="burger-btn" aria-pressed="false">
+				<div class="burger-btn__line"></div>
+			</button>
         </div>
-        <figure class="home__img">
-          <img src="./assets/images/hero.webp" srcset="
+    </header>
+
+    <main class="main">
+        <div class="wrapper">
+            <section id="home" class="home" aria-label="home">
+                <div class="home__wrapper">
+                    <a class="home__link" href="#">Unhappy with your website?</a>
+                    <h1 class="home__title">
+                        We create beautiful and fast web services
+                    </h1>
+                </div>
+                <figure class="home__img">
+                    <img src="./assets/images/hero.webp" srcset="
                 ./assets/images/hero.webp       360w,
                 ./assets/images/hero-large.webp 720w
               " height="145" width="348" alt="Work meeting" aria-label="Work meeting" />
-        </figure>
-        <div class="home__wrapper">
-          <h1 class="home__title">Story, emotion and purpose</h1>
-          <p class="home__text">
-            We help transform your ideas into real world applications that
-            will outperform your toughest competition and help you achieve
-            your strategic goals in short period of time.
-          </p>
+                </figure>
+                <div class="home__wrapper">
+                    <h1 class="home__title">Story, emotion and purpose</h1>
+                    <p class="home__text">
+                        We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+                    </p>
 
-          <div class="form">
-            <p class="form__text">Want us to contact you?</p>
-            <form class="form__cont">
-              <input class="form__input" type="email" id="mail" name="contactmail" placeholder="Email" required />
-              <button class="form__button" type="submit">Join</button>
-            </form>
-          </div>
-        </div>
-      </section>
-      <section class="services" aria-label="services">
-        <div class="wrapper--content">
-          <h2 class="services__title">We offer high demand services</h2>
-          <div class="services__cards-container">
-            <article class="card" aria-label="UI/UX design service">
-              <div class="card__icon card__icon--blue">
-                <i class="icon-pencil" aria-hidden="true"></i>
-              </div>
-              <div class="card__content">
-                <h3 class="card__title">UI/UX Design</h3>
-                <p class="card__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Duis a metus ac nulla consequat aliquet id quis turpis.
-                </p>
-              </div>
-              <a href="#" class="card__button" aria-label="Get started UI/UX design">
-                Get started
-              </a>
-            </article>
-            <article class="card" aria-label="Frontend service">
-              <div class="card__icon card__icon--green">
-                <i class="icon-code" aria-hidden="true"></i>
-              </div>
-              <div class="card__content">
-                <h3 class="card__title">Front End</h3>
-                <p class="card__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Duis a metus ac nulla consequat aliquet id quis turpis.
-                </p>
-              </div>
-              <a href="#" class="card__button" aria-label="Get started frontend">
-                Get started
-              </a>
-            </article>
-            <article class="card" aria-label="Backend service">
-              <div class="card__icon card__icon--red">
-                <i class="icon-storage" aria-hidden="true"></i>
-              </div>
-              <div class="card__content">
-                <h3 class="card__title">Back End</h3>
-                <p class="card__description">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Duis a metus ac nulla consequat aliquet id quis turpis.
-                </p>
-              </div>
-              <a href="#" class="card__button" aria-label="Get started backend">
-                Get started
-              </a>
-            </article>
-          </div>
-        </div>
-      </section>
-      <section class="community__container" aria-labelledby="community">
-        <div class="wrapper--content">
-          <div class="community">
-            <div class="community-block">
-              <h2 id="community" class="community__title">Mean the team</h2>
-              <p class="community__text-content">
-                <span class="community__description">
-                  We are chilled and a laidback team
-                </span>
-                <span class="community__details">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </span>
-              </p>
-            </div>
-            <div class="grid-gallery">
-              <figure class="grid-gallery__photo grid-gallery__photo--big">
-                <img src="./assets/images/person3.webp" srcset="
+                    <div class="form">
+                        <p class="form__text">Want us to contact you?</p>
+                        <form class="form__cont">
+                            <input class="form__input" type="email" id="mail" name="contactmail" placeholder="Email" required />
+                            <button class="form__button" type="submit">Join</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="services" aria-label="services">
+                <div class="wrapper--content">
+                    <h2 class="services__title">We offer high demand services</h2>
+                    <div class="services__cards-container">
+                        <article class="card" aria-label="UI/UX design service">
+                            <div class="card__icon card__icon--blue">
+                                <i class="icon-pencil" aria-hidden="true"></i>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">UI/UX Design</h3>
+                                <p class="card__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+                                </p>
+                            </div>
+                            <a href="#" class="card__button" aria-label="Get started UI/UX design">
+								Get started
+							</a>
+                        </article>
+                        <article class="card" aria-label="Frontend service">
+                            <div class="card__icon card__icon--green">
+                                <i class="icon-code" aria-hidden="true"></i>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Front End</h3>
+                                <p class="card__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+                                </p>
+                            </div>
+                            <a href="#" class="card__button" aria-label="Get started frontend">
+								Get started
+							</a>
+                        </article>
+                        <article class="card" aria-label="Backend service">
+                            <div class="card__icon card__icon--red">
+                                <i class="icon-storage" aria-hidden="true"></i>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Back End</h3>
+                                <p class="card__description">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.
+                                </p>
+                            </div>
+                            <a href="#" class="card__button" aria-label="Get started backend">
+								Get started
+							</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio__container">
+                <div class="wrapper--content">
+                    <div class="portfolio">
+                        <h2 class="portfolio--tittle">Good design means good business</h2>
+                        <div class="gallery">
+
+                            <div class="gallery--item">
+                                <figure class="gallery--image">
+                                    <img src="./assets/images/smarthome.webp" srcset="./assets/images/smarthome.webp 360w,
+											./assets/images/smarthome-large.webp 720w
+											" height="350" width="350" alt="smart home dashboard" aria-label="smart home dashboard" />
+                                </figure>
+                                <div class="gallery--text">
+                                    <h4 class="gallery--sub_tittle">Full stack application</h4>
+                                    <h3 class="gallery--tittle">Smart home dashboard</h3>
+                                </div>
+                            </div>
+
+                            <div class="gallery--item">
+                                <figure class="gallery--image">
+                                    <img src="./assets/images/onboard.webp" srcset="./assets/images/onboard.webp 360w, 
+									./assets/images/onboard-large.webp 720w" height="350" width="350" alt="Onboard application" aria-label="Onboard application" />
+                                </figure>
+                                <div class="gallery--text">
+                                    <h4 class="gallery--sub_tittle">UX/UI design</h4>
+                                    <h3 class="gallery--tittle">Onboard application</h3>
+                                </div>
+                            </div>
+
+                            <div class="gallery--item">
+                                <figure class="gallery--image">
+                                    <img src="./assets/images/booking.webp" srcset="./assets/images/booking.webp 360w,
+                                    ./assets/images/booking-large.webp 720w
+                                    " height="350" width="350" alt="Booking system" aria-label="Booking system" />
+                                </figure>
+                                <div class="gallery--text">
+                                    <h4 class="gallery--sub_tittle">Mobile application</h4>
+                                    <h3 class="gallery--tittle">Booking system</h3>
+                                </div>
+                            </div>
+
+                            <div class="gallery--item">
+                                <figure class="gallery--image">
+                                    <img src="./assets/images/juice-product.webp" srcset="./assets/images/juice-product.webp 360w, ./assets/images/juice-product-large.webp 720w
+                                    " height="350" width="350" alt="Juice product homepage" aria-label="Juice product homepage" />
+                                </figure>
+                                <div class="gallery--text">
+                                    <h4 class="gallery--sub_tittle">Front End applicati on</h4>
+                                    <h3 class="gallery--tittle">Juice product homepage</h3>
+                                </div>
+                            </div>
+
+                            <div class="gallery--button gallery--item">
+                                <a href="#">
+                                    <p>see more</p>
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="community__container" aria-labelledby="community">
+                <div class="wrapper--content">
+                    <div class="community">
+                        <div class="community-block">
+                            <h2 id="community" class="community__title">Mean the team</h2>
+                            <p class="community__text-content">
+                                <span class="community__description">
+									We are chilled and a laidback team
+								</span>
+                                <span class="community__details">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</span>
+                            </p>
+                        </div>
+                        <div class="grid-gallery">
+                            <figure class="grid-gallery__photo grid-gallery__photo--big">
+                                <img src="./assets/images/person3.webp" srcset="
                       ./assets/images/person3.webp       360w,
                       ./assets/images/person3-large.webp 720w
                     " height="178.16" width="178.16" alt="Smiling woman" aria-label="Smiling woman" />
-              </figure>
-              <figure class="grid-gallery__photo grid-gallery__photo--small">
-                <img src="./assets/images/person1.webp" srcset="
+                            </figure>
+                            <figure class="grid-gallery__photo grid-gallery__photo--small">
+                                <img src="./assets/images/person1.webp" srcset="
                       ./assets/images/person1.webp       360w,
                       ./assets/images/person1-large.webp 720w
                     " height="144.76" width="144.76" alt="Smiling student" aria-label="Smiling student" />
-              </figure>
-              <figure class="grid-gallery__photo grid-gallery__photo--medium">
-                <img src="./assets/images/person2.webp" srcset="
+                            </figure>
+                            <figure class="grid-gallery__photo grid-gallery__photo--medium">
+                                <img src="./assets/images/person2.webp" srcset="
                       ./assets/images/person2.webp       360w,
                       ./assets/images/person2-large.webp 720w
                     " height="167.03" width="162.25" alt="Smiling man" aria-label="Smiling man" />
-              </figure>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="testimonial__container">
-        <div class="wrapper--content">
-          <article class="testimonial">
-            <figure class="testimonial--figure">
-              <blockquote class="testimonial--blockquote">
-                <p class="testimonial--sentence">“Fast and outstanding resutls. Edie understands their customer’s needs.
-                  They have a young and talented team.”</p>
-              </blockquote>
-              <figcaption class="testimonial--caption">
-                <figure class="testimonial--image">
-                  <img src="./assets/images/person4.webp" srcset="
-                        ./assets/images/person4.webp  360w,
-                        ./assets/images/person4.webp 720w" height="100" width="100" alt="Carlos Tran photo"
-                    aria-label="Carlos Tran photo" />
-                </figure>
-                <div class="testimonial--info">
-                  <p class="testimonial--name">Carlos Tran</p>
-                  <p class="testimonial--charge">The Decorate Gatsby</p>
+                            </figure>
+                        </div>
+                    </div>
                 </div>
-              </figcaption>
-            </figure>
-          </article>
+            </section>
+            <section class="testimonial__container">
+                <div class="wrapper--content">
+                    <article class="testimonial">
+                        <figure class="testimonial--figure">
+                            <blockquote class="testimonial--blockquote">
+                                <p class="testimonial--sentence">“Fast and outstanding resutls. Edie understands their customer’s needs. They have a young and talented team.”</p>
+                            </blockquote>
+                            <figcaption class="testimonial--caption">
+                                <figure class="testimonial--image">
+                                    <img src="./assets/images/person4.webp" srcset="
+                        ./assets/images/person4.webp  360w,
+                        ./assets/images/person4.webp 720w" height="100" width="100" alt="Carlos Tran photo" aria-label="Carlos Tran photo" />
+                                </figure>
+                                <div class="testimonial--info">
+                                    <p class="testimonial--name">Carlos Tran</p>
+                                    <p class="testimonial--charge">The Decorate Gatsby</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </section>
+
+
         </div>
-      </section>
-    </div>
-  </main>
+    </main>
+
+    <!-- awesome font -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </body>
 
 </html>
