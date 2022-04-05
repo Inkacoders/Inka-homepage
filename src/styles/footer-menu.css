@@ -1,0 +1,11 @@
+.footerMenu {
+  font: var(--m_link3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footerMenu__item {
+  text-decoration: none;
+  color: var(--white);
+}

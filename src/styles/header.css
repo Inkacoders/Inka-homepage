@@ -20,19 +20,6 @@
   box-sizing: border-box;
 }
 
-.header__logo {
-  margin: 0;
-  block-size: 1.5rem;
-  inline-size: 3.465rem;
-  z-index: 1;
-}
-
-.header__logo img {
-  block-size: 100%;
-  inline-size: auto;
-  vertical-align: middle;
-}
-
 @media (min-width: 1000px) {
   .header__wrapper {
     padding-inline-end: 25px;
