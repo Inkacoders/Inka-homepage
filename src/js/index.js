@@ -1,4 +1,4 @@
-import "../styles/components/burger-btn.css"
+import "../styles/components/burger-btn.css";
 import "../styles/components/card.css";
 import "../styles/components/community.css";
 import "../styles/components/form.css";
@@ -18,8 +18,11 @@ import "../styles/objects/wrapper.css";
 import "../styles/settings/fonts.css";
 import "../styles/settings/variables.css";
 
-
 import { $burgerBtn } from "./selectors.js";
-import { menuHandle } from "./functions.js";
+import { menuHandle, resetMenu } from "./functions.js";
 
 $burgerBtn.addEventListener("click", menuHandle);
+
+window.addEventListener("resize", () => {
+  window.innerWidth >= 1000 && resetMenu();
+});
