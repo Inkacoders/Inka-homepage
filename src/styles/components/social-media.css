@@ -1,0 +1,11 @@
+.socialMedia {
+  display: flex;
+  gap: 0.625rem;
+  margin-block-start: 1rem;
+}
+
+.socialMedia__item {
+  text-decoration: none;
+  color: var(--gray6);
+  font-size: 1.5rem;
+}
