@@ -1,10 +1,9 @@
+/* .form{
+
+} */
 .form__text {
   font: var(--m_text3);
   color: var(--gray3);
-}
-
-.form__text.is-white {
-  color: var(--gray6);
 }
 
 .form__cont {
@@ -39,7 +38,7 @@
 
   top: 0;
   bottom: 0;
-  margin-block-start: auto;
+  margin-top: auto;
   margin-bottom: auto;
   background-color: var(--blue);
   color: var(--white);

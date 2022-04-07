@@ -1,5 +1,5 @@
 .portfolio__container {
-  margin-block-start: 200px;
+  margin-top: 150px;
 }
 
 /* fonts and colors */
@@ -22,7 +22,7 @@
 /* gallery */
 
 .gallery {
-  margin: 48px 0 200px 0;
+  margin: 45px 0 70px 0;
   display: grid;
   grid-template-rows: auto;
   gap: 35px;
@@ -79,7 +79,6 @@
     column-gap: 20px;
     row-gap: 0;
     align-items: flex-start;
-    margin: 12px 0 100px 0;
   }
   .gallery--item:nth-of-type(1) {
     grid-column: 1/2;
@@ -100,7 +99,7 @@
   .gallery--item:nth-of-type(5) {
     grid-column: 2/3;
     grid-row: 5/6;
-    margin-block-start: 15%;
+    margin-top: 15%;
   }
   .gallery--item:nth-of-type(5) a {
     justify-content: flex-end;
