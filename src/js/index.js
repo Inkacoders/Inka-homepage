@@ -1,23 +1,32 @@
-import "../styles/main.css";
-import "../styles/icon.css";
-import "../styles/wrapper.css";
-import "../styles/logo.css";
-import "../styles/home.css";
-import "../styles/form.css";
-import "../styles/header.css";
-import "../styles/burger-btn.css";
-import "../styles/menu.css";
-import "../styles/grid-gallery.css";
-import "../styles/community.css";
-import "../styles/services.css";
-import "../styles/card.css";
-import "../styles/testimonial.css";
-import "../styles/portfolio.css";
-import "../styles/footer.css";
-import "../styles/footer-menu.css";
-import "../styles/social-media.css";
+import "../styles/settings/fonts.css";
+import "../styles/settings/variables.css";
+
+import "../styles/elements/body.css";
+
+import "../styles/objects/wrapper.css";
+
+import "../styles/components/burger-btn.css";
+import "../styles/components/card.css";
+import "../styles/components/community.css";
+import "../styles/components/grid-gallery.css";
+import "../styles/components/header.css";
+import "../styles/components/home.css";
+import "../styles/components/icon.css";
+import "../styles/components/logo.css";
+import "../styles/components/menu.css";
+import "../styles/components/portfolio.css";
+import "../styles/components/services.css";
+import "../styles/components/testimonial.css";
+import "../styles/components/social-media.css";
+import "../styles/components/form.css";
+import "../styles/components/footer-menu.css";
+import "../styles/components/footer.css";
 
 import { $burgerBtn } from "./selectors.js";
-import { menuHandle } from "./functions.js";
+import { menuHandle, resetMenu } from "./functions.js";
 
 $burgerBtn.addEventListener("click", menuHandle);
+
+window.addEventListener("resize", () => {
+  window.innerWidth >= 1000 && resetMenu();
+});

@@ -2,6 +2,7 @@
   background: var(--blue-dark);
   padding-block: 2.25rem 1.5rem;
   padding-inline: 2.5rem;
+  margin-block-start: 6.25rem;
 }
 
 .footer__content {
@@ -32,5 +33,6 @@
 
   .footer {
     padding-block-start: 2.875rem;
+    margin-block-start: 12.5rem;
   }
 }

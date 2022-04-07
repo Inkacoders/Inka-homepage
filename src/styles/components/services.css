@@ -1,7 +1,11 @@
+.services {
+  margin-block-start: 6.25rem;
+}
 .services__title {
   font: var(--m_header4);
   inline-size: 16.1875rem;
   padding-inline-start: 2.0625rem;
+  margin-block-end: 3rem;
 }
 
 .services__cards-container {
@@ -16,5 +20,8 @@
   .services__title {
     inline-size: 21.625rem;
     padding-inline-start: 0;
+  }
+  .services {
+    margin-block-start: 12.5rem;
   }
 }
