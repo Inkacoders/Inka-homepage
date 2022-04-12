@@ -1,5 +1,4 @@
-import "../styles/settings/fonts.css";
-import "../styles/settings/variables.css";
+import "../styles/styles.scss";
 
 import "../styles/elements/body.css";
 
