@@ -1,97 +1,71 @@
 .card {
-    max-inline-size: 21.3125rem;
-    block-size: 26.375rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding-inline: 34px;
-    gap: 30px;
-    box-sizing: border-box;
-    border-radius: 1.5rem;
-    -webkit-border-radius: 1.5rem;
-    -moz-border-radius: 1.5rem;
-    -ms-border-radius: 1.5rem;
-    -o-border-radius: 1.5rem;
-    cursor: pointer;
-    transition: box-shadow 0.3s;
-    -webkit-transition: box-shadow 0.3s;
-    -moz-transition: box-shadow 0.3s;
-    -ms-transition: box-shadow 0.3s;
-    -o-transition: box-shadow 0.3s;
+  max-inline-size: 21.3125rem;
+  block-size: 26.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-inline: 34px;
+  gap: 30px;
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
 }
 
 .card:hover {
-    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
 }
 
 .card__title {
-    font: var(--m_header5);
-    color: var(--gray1);
-    margin: 0;
-    margin-block-end: 1.5rem;
+  font: var(--m_header5);
+  color: var(--gray1);
+  margin: 0;
+  margin-block-end: 1.5rem;
 }
 
 .card__description {
-    font: var(--m_text2);
-    margin: 0;
+  font: var(--m_text2);
+  margin: 0;
 }
 
 .card__icon {
-    margin-block-end: 0.3125rem;
-    block-size: 4.1875rem;
-    border-radius: 1rem;
-    color: var(--white);
-    display: grid;
-    font-size: 1.6875rem;
-    inline-size: 4.1875rem;
-    place-items: center;
-    user-select: none;
-    -moz-border-radius: 1rem;
-    -moz-user-select: none;
-    -ms-border-radius: 1rem;
-    -ms-user-select: none;
-    -o-border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -webkit-user-select: none;
+  margin-block-end: 0.3125rem;
+  block-size: 4.1875rem;
+  border-radius: 1rem;
+  color: var(--white);
+  display: grid;
+  font-size: 1.6875rem;
+  inline-size: 4.1875rem;
+  place-items: center;
+  user-select: none;
 }
 
 .card__icon--blue {
-    background: var(--blue);
+  background: var(--blue);
 }
 
 .card__icon--red {
-    background: var(--red);
+  background: var(--red);
 }
 
 .card__icon--green {
-    background: var(--green);
+  background: var(--green);
 }
 
 .card__button {
-    padding-inline: 0.75rem;
-    padding-block: 0.5625rem;
-    text-decoration: none;
-    color: var(--gray3);
-    background: var(--gray5);
-    font: var(--m_button2);
-    border-radius: 0.75rem;
-    -webkit-border-radius: 0.75rem;
-    -moz-border-radius: 0.75rem;
-    -ms-border-radius: 0.75rem;
-    -o-border-radius: 0.75rem;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    transition: color 0.3s, background 0.3s;
-    -webkit-transition: color 0.3s, background 0.3s;
-    -moz-transition: color 0.3s, background 0.3s;
-    -ms-transition: color 0.3s, background 0.3s;
-    -o-transition: color 0.3s, background 0.3s;
+  padding-inline: 0.75rem;
+  padding-block: 0.5625rem;
+  text-decoration: none;
+  color: var(--gray3);
+  background: var(--gray5);
+  font: var(--m_button2);
+  border-radius: 0.75rem;
+  user-select: none;
+  transition: color 0.3s, background 0.3s;
 }
 
 .card:hover .card__button {
-    color: var(--white);
-    background: var(--blue);
+  color: var(--white);
+  background: var(--blue);
 }

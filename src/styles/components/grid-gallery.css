@@ -13,10 +13,6 @@
   margin: 0;
   overflow: hidden;
   border-radius: 1.5rem;
-  -webkit-border-radius: 1.5rem;
-  -moz-border-radius: 1.5rem;
-  -ms-border-radius: 1.5rem;
-  -o-border-radius: 1.5rem;
 }
 
 .grid-gallery__photo img {
