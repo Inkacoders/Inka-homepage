@@ -1,0 +1,25 @@
+@forward "atoms/author";
+@use "../settings/mixins/breakpoints";
+
+.testimonial {
+  margin-block-start: 6.25rem;
+
+  &__figure,
+  &__blockquote,
+  &__sentence {
+    margin: 0;
+  }
+
+  &__sentence {
+    font: var(--m_header4);
+    color: var(--gray1);
+  }
+
+  &__blockquote {
+    max-width: 58.125rem;
+  }
+
+  @include breakpoints.large {
+    margin-block-start: 12.25rem;
+  }
+}

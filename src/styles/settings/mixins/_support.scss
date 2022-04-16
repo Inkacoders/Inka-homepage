@@ -1,0 +1,5 @@
+@mixin not-support($condition) {
+  @supports not (#{$condition}) {
+    @content;
+  }
+}

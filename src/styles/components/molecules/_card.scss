@@ -1,0 +1,38 @@
+@forward "../atoms/card-icon";
+@forward "../atoms/card-button";
+
+.card {
+  max-inline-size: 21.3125rem;
+  block-size: 26.375rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-inline: 34px;
+  gap: 30px;
+  box-sizing: border-box;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 0 0.625rem 1.875rem rgba(51, 51, 51, 0.1);
+  }
+
+  &__title {
+    font: var(--m_header5);
+    color: var(--gray1);
+    margin: 0;
+    margin-block-end: 1.5rem;
+  }
+
+  &__description {
+    font: var(--m_text2);
+    margin: 0;
+  }
+
+  &:hover .card-button {
+    color: var(--white);
+    background: var(--blue);
+  }
+}

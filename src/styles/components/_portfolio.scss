@@ -1,0 +1,17 @@
+@forward "./molecules/portfolio-gallery";
+@use "../settings/mixins/breakpoints";
+
+.portfolio {
+  margin-top: 9.375rem;
+
+  &__title {
+    font: var(--m_header4);
+    color: var(--gray1);
+  }
+
+  @include breakpoints.normal {
+    &__title {
+      max-width: 28rem;
+    }
+  }
+}

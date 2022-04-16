@@ -139,12 +139,12 @@
           </a>
         </figure>
         <nav
-          class="menu__container"
+          class="menu"
           aria-label="Main menu"
           role="navigation"
           aria-expanded="false"
         >
-          <ul class="menu">
+          <ul class="menu__content">
             <li><a class="menu__item" href="#">Home</a></li>
             <li><a class="menu__item" href="#">Service</a></li>
             <li><a class="menu__item" href="#">Our Works</a></li>
@@ -163,7 +163,7 @@
     </header>
 
     <main class="main">
-      <div class="wrapper">
+      <div class="wrapper--main">
         <section id="home" class="home" aria-label="home">
           <div class="home__wrapper">
             <a class="home__link" href="#">Unhappy with your website?</a>
@@ -194,7 +194,7 @@
 
             <div class="form">
               <p class="form__text">Want us to contact you?</p>
-              <form class="form__cont">
+              <form class="form__content">
                 <input
                   class="form__input"
                   type="email"
@@ -209,11 +209,11 @@
           </div>
         </section>
         <section class="services" aria-label="services">
-          <div class="wrapper--content">
+          <div class="wrapper">
             <h2 class="services__title">We offer high demand services</h2>
             <div class="services__cards-container">
               <article class="card" aria-label="UI/UX design service">
-                <div class="card__icon card__icon--blue">
+                <div class="card-icon card-icon--blue">
                   <i class="icon-pencil" aria-hidden="true"></i>
                 </div>
                 <div class="card__content">
@@ -225,14 +225,14 @@
                 </div>
                 <a
                   href="#"
-                  class="card__button"
+                  class="card-button"
                   aria-label="Get started UI/UX design"
                 >
                   Get started
                 </a>
               </article>
               <article class="card" aria-label="Frontend service">
-                <div class="card__icon card__icon--green">
+                <div class="card-icon card-icon--green">
                   <i class="icon-code" aria-hidden="true"></i>
                 </div>
                 <div class="card__content">
@@ -244,14 +244,14 @@
                 </div>
                 <a
                   href="#"
-                  class="card__button"
+                  class="card-button"
                   aria-label="Get started frontend"
                 >
                   Get started
                 </a>
               </article>
               <article class="card" aria-label="Backend service">
-                <div class="card__icon card__icon--red">
+                <div class="card-icon card-icon--red">
                   <i class="icon-storage" aria-hidden="true"></i>
                 </div>
                 <div class="card__content">
@@ -263,7 +263,7 @@
                 </div>
                 <a
                   href="#"
-                  class="card__button"
+                  class="card-button"
                   aria-label="Get started backend"
                 >
                   Get started
@@ -272,13 +272,13 @@
             </div>
           </div>
         </section>
-        <section class="portfolio__container">
-          <div class="wrapper--content">
-            <div class="portfolio">
-              <h2 class="portfolio--tittle">Good design means good business</h2>
-              <div class="gallery">
-                <div class="gallery--item">
-                  <figure class="gallery--image">
+        <section class="portfolio">
+          <div class="wrapper">
+            <div class="portfolio-content">
+              <h2 class="portfolio__title">Good design means good business</h2>
+              <div class="portfolio-gallery">
+                <div class="portfolio-gallery__item">
+                  <figure class="portfolio-gallery__image">
                     <img
                       src="./assets/images/smarthome.webp"
                       srcset="
@@ -291,14 +291,18 @@
                       aria-label="smart home dashboard"
                     />
                   </figure>
-                  <div class="gallery--text">
-                    <h3 class="gallery--sub_tittle">Full stack application</h3>
-                    <h3 class="gallery--tittle">Smart home dashboard</h3>
+                  <div class="portfolio-gallery__text">
+                    <h3 class="portfolio-gallery__sub-title">
+                      Full stack application
+                    </h3>
+                    <h3 class="portfolio-gallery__title">
+                      Smart home dashboard
+                    </h3>
                   </div>
                 </div>
 
-                <div class="gallery--item">
-                  <figure class="gallery--image">
+                <div class="portfolio-gallery__item">
+                  <figure class="portfolio-gallery__image">
                     <img
                       src="./assets/images/onboard.webp"
                       srcset="
@@ -311,14 +315,16 @@
                       aria-label="Onboard application"
                     />
                   </figure>
-                  <div class="gallery--text">
-                    <h3 class="gallery--sub_tittle">UX/UI design</h3>
-                    <h3 class="gallery--tittle">Onboard application</h3>
+                  <div class="portfolio-gallery__text">
+                    <h3 class="portfolio-gallery__sub-title">UX/UI design</h3>
+                    <h3 class="portfolio-gallery__title">
+                      Onboard application
+                    </h3>
                   </div>
                 </div>
 
-                <div class="gallery--item">
-                  <figure class="gallery--image">
+                <div class="portfolio-gallery__item">
+                  <figure class="portfolio-gallery__image">
                     <img
                       src="./assets/images/booking.webp"
                       srcset="
@@ -331,14 +337,16 @@
                       aria-label="Booking system"
                     />
                   </figure>
-                  <div class="gallery--text">
-                    <h3 class="gallery--sub_tittle">Mobile application</h3>
-                    <h3 class="gallery--tittle">Booking system</h3>
+                  <div class="portfolio-gallery__text">
+                    <h3 class="portfolio-gallery__sub-title">
+                      Mobile application
+                    </h3>
+                    <h3 class="portfolio-gallery__title">Booking system</h3>
                   </div>
                 </div>
 
-                <div class="gallery--item">
-                  <figure class="gallery--image">
+                <div class="portfolio-gallery__item">
+                  <figure class="portfolio-gallery__image">
                     <img
                       src="./assets/images/juice-product.webp"
                       srcset="
@@ -351,16 +359,22 @@
                       aria-label="Juice product homepage"
                     />
                   </figure>
-                  <div class="gallery--text">
-                    <h3 class="gallery--sub_tittle">Front End applicati on</h3>
-                    <h3 class="gallery--tittle">Juice product homepage</h3>
+                  <div class="portfolio-gallery__text">
+                    <h3 class="portfolio-gallery__sub-title">
+                      Front End applicati on
+                    </h3>
+                    <h3 class="portfolio-gallery__title">
+                      Juice product homepage
+                    </h3>
                   </div>
                 </div>
 
-                <div class="gallery--button gallery--item">
-                  <a href="#">
-                    <p>see more</p>
-                    <i class="fas fa-long-arrow-alt-right"></i>
+                <div
+                  class="portfolio-gallery__item portfolio-gallery__item--is-button"
+                >
+                  <a href="#" class="portfolio-gallery__link">
+                    <span>see more</span>
+                    <i class="icon-arrow_right"></i>
                   </a>
                 </div>
               </div>
@@ -368,7 +382,7 @@
           </div>
         </section>
         <section class="community__container" aria-labelledby="community">
-          <div class="wrapper--content">
+          <div class="wrapper">
             <div class="community">
               <div class="community-block">
                 <h2 id="community" class="community__title">Mean the team</h2>
@@ -425,33 +439,33 @@
             </div>
           </div>
         </section>
-        <section class="testimonial__container">
-          <div class="wrapper--content">
-            <article class="testimonial">
-              <figure class="testimonial--figure">
-                <blockquote class="testimonial--blockquote">
-                  <p class="testimonial--sentence">
+        <section class="testimonial">
+          <div class="wrapper">
+            <article class="testimonial_content">
+              <figure class="testimonial__figure">
+                <blockquote class="testimonial__blockquote">
+                  <p class="testimonial__sentence">
                     “Fast and outstanding resutls. Edie understands their
                     customer’s needs. They have a young and talented team.”
                   </p>
                 </blockquote>
-                <figcaption class="testimonial--caption">
-                  <figure class="testimonial--image">
+                <figcaption class="author">
+                  <figure class="author__image">
                     <img
                       src="./assets/images/person4.webp"
                       srcset="
                         ./assets/images/person4.webp 360w,
                         ./assets/images/person4.webp 720w
                       "
-                      height="100"
-                      width="100"
+                      height="82"
+                      width="82"
                       alt="Carlos Tran photo"
                       aria-label="Carlos Tran photo"
                     />
                   </figure>
-                  <div class="testimonial--info">
-                    <p class="testimonial--name">Carlos Tran</p>
-                    <p class="testimonial--charge">The Decorate Gatsby</p>
+                  <div class="author__content">
+                    <p class="author__name">Carlos Tran</p>
+                    <p class="author__charge">The Decorate Gatsby</p>
                   </div>
                 </figcaption>
               </figure>
@@ -461,7 +475,7 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="wrapper--content">
+      <div class="wrapper">
         <div class="footer__content">
           <div>
             <ul class="footerMenu" role="menu">
@@ -524,7 +538,7 @@
           </div>
           <div class="form">
             <p class="form__text is-white">Want us to contact you?</p>
-            <form class="form__cont">
+            <form class="form__content">
               <input
                 class="form__input"
                 type="email"

@@ -1,0 +1,74 @@
+@use "../settings/mixins/breakpoints";
+
+.home {
+  &__link {
+    font: var(--m_link1);
+    text-decoration: none;
+    color: var(--blue);
+  }
+
+  &__title {
+    color: var(--gray1);
+    font: var(--m_header3);
+    margin-block-end: 1.25rem;
+    margin-block-start: 0;
+  }
+
+  &__img {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 1.125rem;
+
+    img {
+      object-fit: contain;
+      block-size: 100%;
+      inline-size: auto;
+      vertical-align: middle;
+      max-inline-size: 100%;
+
+      position: relative;
+    }
+  }
+
+  &__text {
+    color: var(--gray2);
+    font: var(--m_text1);
+    margin-block-start: 25px;
+    margin-block-end: 22px;
+  }
+
+  &__wrapper {
+    margin-inline-start: 1.875rem;
+    margin-inline-end: 2.5rem;
+    max-inline-size: 33.9375rem;
+
+    &:nth-of-type(2) {
+      max-inline-size: 23.75rem;
+
+      .home__title {
+        margin-block-start: 0.9375rem;
+        margin-inline-end: 3.125rem;
+      }
+    }
+  }
+
+  @include breakpoints.normal {
+    &__wrapper {
+      margin-inline-start: 100px;
+      margin-inline-end: 325px;
+    }
+  }
+
+  @include breakpoints.large {
+    &__wrapper {
+      margin-inline-start: 14.1875rem;
+      margin-inline-end: 0;
+    }
+
+    &__wrapper:nth-of-type(2) {
+      .home__title {
+        margin-inline-end: 0;
+      }
+    }
+  }
+}

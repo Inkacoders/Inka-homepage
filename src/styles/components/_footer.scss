@@ -1,0 +1,38 @@
+@use "../settings/mixins/breakpoints";
+
+.footer {
+  background: var(--blue-dark);
+  padding-block: 2.25rem 1.5rem;
+  padding-inline: 2.5rem;
+  margin-block-start: 6.25rem;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+  }
+
+  &__credits {
+    margin-block-start: 7.375rem;
+    text-align: center;
+    font: var(--m_text3);
+    color: var(--gray6);
+    inline-size: 100%;
+    margin-block-end: 0;
+
+    a {
+      color: var(--gray6);
+    }
+  }
+
+  @include breakpoints.medium {
+    padding-block-start: 2.875rem;
+    margin-block-start: 12.5rem;
+
+    &__content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}

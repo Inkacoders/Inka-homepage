@@ -1,2 +1,23 @@
-@import "./settings/fonts";
-@import "./settings/variables";
+@use "./settings/fonts";
+@use "./settings/variables";
+
+@use "./elements/body";
+
+@use "./objects/wrapper";
+
+@use "./components/atoms/burger-btn";
+@use "./components/molecules/card";
+@use "./components/community";
+@use "./components/grid-gallery";
+@use "./components/header";
+@use "./components/home";
+@use "./components/icon";
+@use "./components/logo";
+@use "./components/menu";
+@use "./components/portfolio";
+@use "./components/services";
+@use "./components/testimonial";
+@use "./components/social-media";
+@use "./components/form";
+@use "./components/footer-menu";
+@use "./components/footer";

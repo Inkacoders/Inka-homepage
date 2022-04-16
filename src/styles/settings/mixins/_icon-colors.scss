@@ -1,0 +1,8 @@
+// Color have to be a map that contains name: value
+@mixin icon-colors($colors) {
+  @each $color in $colors {
+    &.card-icon--#{$color} {
+      background: var(--#{$color});
+    }
+  }
+}

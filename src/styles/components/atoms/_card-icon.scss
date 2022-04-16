@@ -1,0 +1,17 @@
+@use "../../settings/mixins/icon-colors" as *;
+@use "../../settings/maps/icons";
+@use "../../settings/colors" as *;
+
+.card-icon {
+  margin-block-end: 0.3125rem;
+  block-size: 4.1875rem;
+  border-radius: 1rem;
+  color: var(--white);
+  display: grid;
+  font-size: 1.6875rem;
+  inline-size: 4.1875rem;
+  place-items: center;
+  user-select: none;
+
+  @include icon-colors(icons.$colors);
+}
