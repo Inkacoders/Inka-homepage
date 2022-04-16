@@ -60,7 +60,7 @@
       padding-inline-end: 6rem;
       font: var(--button-medium);
       padding-block: 1rem;
-      inline-size: 21.875rem;
+      min-inline-size: 21.875rem;
     }
   }
 }

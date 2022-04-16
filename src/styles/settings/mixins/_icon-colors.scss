@@ -1,4 +1,4 @@
-// Color have to be a map that contains name: value
+// $colors have to be a lsit of colors
 @mixin icon-colors($colors) {
   @each $color in $colors {
     &.card-icon--#{$color} {
