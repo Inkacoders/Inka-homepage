@@ -8,13 +8,13 @@
   justify-content: center;
 
   &__sub-title {
-    font: var(--m_text3);
+    font: var(--smaller-bold);
     color: var(--gray3);
     margin: 0;
   }
 
   &__title {
-    font: var(--m_header2);
+    font: var(--subtitle-medium);
     color: var(--gray1);
     margin: 0;
   }
@@ -49,7 +49,7 @@
     align-items: center;
     gap: 1rem;
     color: var(--blue);
-    font: var(--m_header2);
+    font: var(--subtitle-medium);
   }
 
   @include breakpoints.normal {
@@ -98,6 +98,17 @@
         width: 100%;
         height: 100%;
       }
+    }
+  }
+
+  @include breakpoints.large {
+    &__link,
+    &__title {
+      font: var(--headline3);
+    }
+
+    &__sub-title {
+      font: var(--small);
     }
   }
 }

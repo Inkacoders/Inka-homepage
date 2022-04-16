@@ -26,23 +26,13 @@
 
   &__name {
     margin: 0;
-    font: var(--m_header4);
+    font: var(--headline3);
     color: var(--gray1);
   }
 
   &__charge {
     margin: 0;
-    font: var(--m_button2);
+    font: var(--button-medium);
     color: var(--gray3);
-  }
-
-  @include breakpoints.large {
-    &__name {
-      font: var(--m_header2);
-    }
-
-    &__charge {
-      font: var(--m_link1);
-    }
   }
 }

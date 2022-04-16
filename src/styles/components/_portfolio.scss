@@ -5,13 +5,19 @@
   margin-top: 9.375rem;
 
   &__title {
-    font: var(--m_header4);
+    font: var(--headline3);
     color: var(--gray1);
   }
 
   @include breakpoints.normal {
     &__title {
       max-width: 28rem;
+    }
+  }
+
+  @include breakpoints.large {
+    &__title {
+      font: var(--headline2);
     }
   }
 }

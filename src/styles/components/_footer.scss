@@ -16,7 +16,7 @@
   &__credits {
     margin-block-start: 7.375rem;
     text-align: center;
-    font: var(--m_text3);
+    font: var(--smaller-bold);
     color: var(--gray6);
     inline-size: 100%;
     margin-block-end: 0;
@@ -33,6 +33,12 @@
     &__content {
       flex-direction: row;
       justify-content: space-between;
+    }
+  }
+
+  @include breakpoints.large {
+    &__credits {
+      font: var(--small);
     }
   }
 }

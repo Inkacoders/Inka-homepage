@@ -8,8 +8,8 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding-inline: 34px;
-  gap: 30px;
+  padding-inline: 2.125rem;
+  gap: 1.875rem;
   box-sizing: border-box;
   border-radius: 1.5rem;
   cursor: pointer;
@@ -20,14 +20,14 @@
   }
 
   &__title {
-    font: var(--m_header5);
+    font: var(--headline3-bold);
     color: var(--gray1);
     margin: 0;
     margin-block-end: 1.5rem;
   }
 
   &__description {
-    font: var(--m_text2);
+    font: var(--normal);
     margin: 0;
   }
 

@@ -1,36 +1,19 @@
 :root {
-  --baseFont1: "Poppins", sans-serif;
-  --baseFont2: "Heebo", sans-serif;
-  /* mobile */
-  --m_header1: 800 24px / 35.2496px var(--baseFont2);
-  --m_header2: 500 18px / 27px var(--baseFont1);
-  --m_header3: 500 24px / 36px var(--baseFont1);
-  --m_header4: 500 24px / 36px var(--baseFont1);
-  --m_header5: 700 24px / 36px var(--baseFont1);
-  --m_link1: 500 12px / 18px var(--baseFont1);
-  --m_link2: 400 18px / 36px var(--baseFont1);
-  --m_link3: 400 18px / 36px var(--baseFont1);
-  --m_text1: 400 10px / 15px var(--baseFont1);
-  --m_text2: 400 16px / 24px var(--baseFont1);
-  --m_text3: 500 12px / 18px var(--baseFont1);
-  --m_button1: 500 14px / 21px var(--baseFont1);
-  --m_button2: 500 16px / 24px var(--baseFont1);
-}
-
-@media (min-width: 1000px) {
-  :root {
-    /* desktop */
-    --m_header1: 800 36px / 52.88px var(--baseFont2);
-    --m_header2: 500 24px / 36px var(--baseFont1);
-    --m_header3: 500 48px / 72px var(--baseFont1);
-    --m_header4: 500 36px / 54px var(--baseFont1);
-    --m_header5: 700 24px / 36px var(--baseFont1);
-    --m_link1: 500 18px / 27px var(--baseFont1);
-    --m_link2: 700 24px / 36px var(--baseFont1);
-    --m_text1: 400 18px / 27px var(--baseFont1);
-    --m_text2: 400 16px / 24px var(--baseFont1);
-    --m_text3: 500 14px / 21px var(--baseFont1);
-    --m_button1: 500 18px / 27px var(--baseFont1);
-    --m_button2: 500 16px / 24px var(--baseFont1);
-  }
+  --fontBase: "Poppins", sans-serif;
+  --headline1: 500 48px / 72px var(--fontBase);
+  --headline2: 500 36px / 54px var(--fontBase);
+  --headline2-bold: 800 36px / 54px var(--fontBase);
+  --headline3: 500 24px / 36px var(--fontBase);
+  --headline3-bold: 700 24px / 36px var(--fontBase);
+  --subtitle: 400 18px / 27px var(--fontBase);
+  --subtitle-medium: 500 18px / 27px var(--fontBase);
+  --link: 400 18px / 36px var(--fontBase);
+  --button: 400 18px / 27px var(--fontBase);
+  --button-medium: 500 18px / 27px var(--fontBase);
+  --normal: 400 16px / 24px var(--fontBase);
+  --normal-medium: 500 16px / 24px var(--fontBase);
+  --small: 500 14px / 21px var(--fontBase);
+  --smaller: 400 12px / 18px var(--fontBase);
+  --smaller-bold: 500 12px / 18px var(--fontBase);
+  --tiny: 400 10px / 15px var(--fontBase);
 }

@@ -4,7 +4,7 @@
   margin-block-start: 6.25rem;
 
   &__title {
-    font: var(--m_header4);
+    font: var(--headline3);
     inline-size: 16.1875rem;
     padding-inline-start: 2.0625rem;
     margin-block-end: 3rem;
@@ -23,6 +23,7 @@
     margin-block-start: 12.5rem;
 
     &__title {
+      font: var(--headline2);
       inline-size: 21.625rem;
       padding-inline-start: 0;
     }

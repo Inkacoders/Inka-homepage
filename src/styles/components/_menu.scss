@@ -26,7 +26,7 @@
   &__item {
     text-decoration: none;
     color: var(--gray1);
-    font: var(--m_header3);
+    font: var(--headline3);
   }
 
   &--expanded {
@@ -50,7 +50,6 @@
     &__item {
       text-decoration: none;
       color: var(--gray1);
-      font: var(--m_header2);
       transition: box-shadow 0.2s;
 
       &:hover {

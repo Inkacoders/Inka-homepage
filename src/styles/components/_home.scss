@@ -2,14 +2,14 @@
 
 .home {
   &__link {
-    font: var(--m_link1);
+    font: var(--smaller-bold);
     text-decoration: none;
     color: var(--blue);
   }
 
   &__title {
     color: var(--gray1);
-    font: var(--m_header3);
+    font: var(--headline3);
     margin-block-end: 1.25rem;
     margin-block-start: 0;
   }
@@ -32,7 +32,7 @@
 
   &__text {
     color: var(--gray2);
-    font: var(--m_text1);
+    font: var(--smaller);
     margin-block-start: 25px;
     margin-block-end: 22px;
   }
@@ -60,6 +60,18 @@
   }
 
   @include breakpoints.large {
+    &__title {
+      font: var(--headline1);
+    }
+
+    &__text {
+      font: var(--button);
+    }
+
+    &__link {
+      font: var(--button-medium);
+    }
+
     &__wrapper {
       margin-inline-start: 14.1875rem;
       margin-inline-end: 0;
