@@ -1,5 +1,5 @@
-@forward "./molecules/portfolio-gallery";
-@use "../settings/mixins/breakpoints";
+@forward "../molecules/portfolio-gallery";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .portfolio {
   margin-top: 9.375rem;
@@ -9,13 +9,13 @@
     color: var(--gray1);
   }
 
-  @include breakpoints.normal {
+  @include mixn_bp.normal {
     &__title {
       max-width: 28rem;
     }
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     &__title {
       font: var(--headline2);
     }

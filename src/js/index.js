@@ -1,4 +1,5 @@
-import "../styles/styles.scss";
+// import "../styles/styles.scss";
+import "../styles/_index.scss";
 
 import { $burgerBtn } from "./selectors.js";
 import { menuHandle, resetMenu } from "./functions.js";

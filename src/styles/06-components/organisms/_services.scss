@@ -1,4 +1,4 @@
-@use "../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .services {
   margin-block-start: 6.25rem;
@@ -19,7 +19,7 @@
     justify-content: center;
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     margin-block-start: 12.5rem;
 
     &__title {

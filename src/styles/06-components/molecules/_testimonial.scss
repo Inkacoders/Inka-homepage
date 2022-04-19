@@ -1,5 +1,5 @@
-@forward "atoms/author";
-@use "../settings/mixins/breakpoints";
+// @forward "atoms/author";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .testimonial {
   margin-block-start: 6.25rem;
@@ -19,7 +19,7 @@
     max-width: 58.125rem;
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     margin-block-start: 12.25rem;
 
     &__sentence {

@@ -1,4 +1,4 @@
-@use "../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .home {
   &__link {
@@ -52,14 +52,14 @@
     }
   }
 
-  @include breakpoints.normal {
+  @include mixn_bp.normal {
     &__wrapper {
       margin-inline-start: 100px;
       margin-inline-end: 325px;
     }
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     &__title {
       font: var(--headline1);
     }

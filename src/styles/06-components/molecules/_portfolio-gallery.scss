@@ -1,4 +1,4 @@
-@use "../../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .portfolio-gallery {
   margin: 2.8125rem 0 4.375rem 0;
@@ -52,7 +52,7 @@
     font: var(--subtitle-medium);
   }
 
-  @include breakpoints.normal {
+  @include mixn_bp.normal {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 12% 33% 11% 33% 11%;
@@ -101,7 +101,7 @@
     }
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     &__link,
     &__title {
       font: var(--headline3);

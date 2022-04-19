@@ -1,11 +1,11 @@
-@use "../settings/mixins/breakpoints";
+@use "../02-tools/mixins/breakpoints" as mixn_bp;
 
 .wrapper {
   max-inline-size: 69rem;
+  margin-inline: auto;
 
   &--main {
-    margin-inline-end: auto;
-    margin-inline-start: auto;
+    margin-inline: auto;
     box-sizing: border-box;
     max-inline-size: 90rem;
     padding-inline-end: 1rem;
@@ -13,14 +13,14 @@
     padding-block-start: 3rem;
   }
 
-  @include breakpoints.normal {
+  @include mixn_bp.normal {
     &--main {
       padding-inline-end: 1.5625rem;
       padding-inline-start: 1.5625rem;
     }
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     &--main {
       padding-inline-end: 2.1875rem;
       padding-inline-start: 2.1875rem;

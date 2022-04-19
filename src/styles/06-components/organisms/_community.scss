@@ -1,4 +1,4 @@
-@use "../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .community {
   display: flex;
@@ -30,12 +30,12 @@
     color: var(--gray2);
   }
 
-  @include breakpoints.medium {
+  @include mixn_bp.medium {
     justify-content: space-between;
     flex-direction: row;
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     &__title {
       font: var(--button-medium);
     }

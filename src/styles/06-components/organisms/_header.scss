@@ -1,5 +1,5 @@
-@use "../settings/mixins/breakpoints";
-@use "../settings/mixins/support" as *;
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
+@use "../../02-tools/mixins/support" as *;
 
 .header {
   inset-block-start: 0;
@@ -22,7 +22,7 @@
     box-sizing: border-box;
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     &__wrapper {
       padding-inline-end: 1.5625rem;
       padding-inline-start: 1.5625rem;

@@ -1,4 +1,4 @@
-@use "../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .form {
   &__text {
@@ -46,7 +46,7 @@
     font: var(--small);
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     &__text {
       font: var(--small);
     }

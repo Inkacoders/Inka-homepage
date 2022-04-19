@@ -1,4 +1,4 @@
-@use "../../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .author {
   margin-block-start: 2.5rem;

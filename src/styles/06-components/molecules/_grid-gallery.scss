@@ -1,4 +1,4 @@
-@use "../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .grid-gallery {
   display: grid;
@@ -39,7 +39,7 @@
     }
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     max-inline-size: none;
 
     &__photo--big {

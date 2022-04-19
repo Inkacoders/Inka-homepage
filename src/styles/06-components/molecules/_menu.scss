@@ -1,4 +1,4 @@
-@use "../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .menu {
   position: absolute;
@@ -33,7 +33,7 @@
     clip-path: circle(max(150vh, 150vw) at 100% 0);
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     clip-path: none;
     block-size: 100%;
     position: static;

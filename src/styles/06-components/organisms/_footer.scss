@@ -1,4 +1,4 @@
-@use "../settings/mixins/breakpoints";
+@use "../../02-tools/mixins/breakpoints" as mixn_bp;
 
 .footer {
   background: var(--blue-dark);
@@ -26,7 +26,7 @@
     }
   }
 
-  @include breakpoints.medium {
+  @include mixn_bp.medium {
     padding-block-start: 2.875rem;
     margin-block-start: 12.5rem;
 
@@ -36,7 +36,7 @@
     }
   }
 
-  @include breakpoints.large {
+  @include mixn_bp.large {
     &__credits {
       font: var(--small);
     }
