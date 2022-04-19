@@ -1,8 +1,0 @@
-// $colors have to be a lsit of colors
-@mixin icon-colors($colors) {
-  @each $color in $colors {
-    &.card-icon--#{$color} {
-      background: var(--#{$color});
-    }
-  }
-}
